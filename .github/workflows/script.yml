@@ -22,7 +22,9 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run Python script
-        # run: python .github/workflows/example.py
+        env: 
+          AWS_SECRET_TOKEN: ${{ secrets.AWS_SECRET_TOKEN }}
         run: python .github/workflows/classes.py
+        # run: python .github/workflows/example.py
 
    
