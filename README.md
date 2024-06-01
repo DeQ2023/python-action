@@ -1,2 +1,2 @@
 # python-action
-my learning platform
+update readme with course material
